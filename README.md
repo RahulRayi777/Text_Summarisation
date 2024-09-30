@@ -34,5 +34,15 @@ It validates whether the URL is in the correct format.
 
 Any unexpected errors will be shown in the Streamlit app with a detailed message.
 
+ ## Summarization APP SHOW
+
+ ### Youtube video
+![My Profile Picture](https://github.com/your-username/your-username/blob/main/profile-picture.png)
+
+
+ ### Summarized content from video 
+![Chat Interaction](./summarized content.png)
+
+ 
 ```bash
 pip install streamlit validators langchain langchain_groq langchain_community
