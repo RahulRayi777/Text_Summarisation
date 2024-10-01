@@ -29,7 +29,7 @@ Content:{text}
 prompt=PromptTemplate(template=prompt_template,input_variables=["text"])
 
 if st.button("Summarize the Content from YT or Website"):
-    ## Validate all the inputs
+    ## Validate all the inputs like api key and url
     if not groq_api_key.strip() or not generic_url.strip():
         st.error("Please provide the information to get started")
     elif not validators.url(generic_url):
